@@ -43,7 +43,7 @@ public class Main {
             try{
                 if(input.equals("ca")){
                     spaceId++;
-                    int randomNumber=(int)Math.floor(Math.random()*(10-(20+1))+(20));
+                    int randomNumber=(int)Math.floor(Math.random()*(22-(10+1))+(10));
                     totalSpaces += randomNumber;
                     if(totalSpaces>200){
                         totalSpaces -= randomNumber;
@@ -55,7 +55,7 @@ public class Main {
                 }
                 if(input.equals("cs")){
                     spaceId++;
-                    int randomNumber=(int)Math.floor(Math.random()*(5-(15+1))+(15));
+                    int randomNumber=(int)Math.floor(Math.random()*(17-(5+1))+(5));
                     totalSpaces += randomNumber;
                     if(totalSpaces>200){
                         totalSpaces -= randomNumber;
